@@ -56,7 +56,7 @@ const production =  {
     },
     google_client_id: process.env.CODEIAL_GOOGLE_CLIENT_ID,
     google_client_secret: process.env.CODEIAL_GOOGLE_CLIENT_SECRET,
-    google_call_back_url: process.env.CODEIAL_GOOGLE_CALLBACK_URL,
+    google_call_back_url: process.env.CODEIAL_GOOGLE_CALLBACK_cURL,
     jwt_secret: process.env.CODEIAL_JWT_SECRET,
     morgan: {
         mode: 'combined',
