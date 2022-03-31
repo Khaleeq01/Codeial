@@ -31,7 +31,7 @@ console.log('chat server is listening on port 8000');
     //outputStyle: 'extended',
     //prefix: '/css'
 //}));
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended:false}));
 
 app.use(cookieParser());
 

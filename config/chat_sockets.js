@@ -8,7 +8,7 @@ module.exports.chatSockets = function(socketServer){
         // Fixing the cors issue
         allowEIO3:true,
         cors: {
-            origin: true,
+            origin: "http://codeial.ml",
             credentials:true
         }
     });
